@@ -35,3 +35,11 @@ class Car {
 let carElement = document.querySelector('.car');
 let theCar = new Car('Chevy Corvette', '2022', carElement);
 theCar.updateElement();
+
+function onClickDrive() {
+  theCar.drive();
+}
+
+function onClickBrake() {
+  theCar.brake();
+}
